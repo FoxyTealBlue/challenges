@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(61, 92, 205)
+}
+
+h1 {
+    text-align: center;
+}
+
+a:link {
+    color:rgb(102, 230, 11);
+}
+
+a:visited {
+    color:rgb(255, 255, 255);
+}
+
+img {
+    border-radius: 100%;
+}
+
+.challenge_box {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.challenge_box1 p {
+    text-align: center;
+}
+
+.challenge_box1 img {
+    max-width: 200px;
+}
+
+.challenge_box2 p {
+    text-align: center;
+}
+
+.challenge_box2 img {
+    max-width: 200px;
+}
+
+.odin_project_box p {
+    text-align: center;
+}
