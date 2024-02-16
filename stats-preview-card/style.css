@@ -83,6 +83,18 @@ h1 {
     padding-bottom: 1rem;
 }
 
+.home_link {
+    justify-content: center;
+}
+
+.home_link a:link {
+    color: white;
+}
+
+.home_link a:visited {
+    color: aqua;
+}
+
 @media (max-width: 900px) {
     .center_box {
         flex-direction: column-reverse;
