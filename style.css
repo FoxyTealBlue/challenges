@@ -3,11 +3,16 @@
 }
 
 body {
-    background-color: rgb(61, 92, 205)
+    background-image: linear-gradient(to bottom right, black, silver);
 }
 
-h1 {
+.header {
+    color: white;
+}
+
+.main_page h1 {
     text-align: center;
+    color: white;
 }
 
 a:link {
@@ -19,7 +24,23 @@ a:visited {
 }
 
 img {
-    border-radius: 100%;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.main_page {
+    display: flex;
+}
+
+.nav_pane {
+    border-right: black solid 2px;
+    max-width: 10rem;
+    flex: 1;
+}
+
+.challenges {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .challenge_box {
@@ -28,12 +49,41 @@ img {
     align-items: flex-end;
 }
 
+.challenge_box1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.c1_background {
+    background-image: url(./assets/images/price-grid.png);
+    width: 450px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.challenge_box2 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+}
+
+.c2_background {
+    background-image: url(./assets/images/stats-card.png);
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+    border-radius: 2rem 2rem 0 0;
+}
+
 .challenge_box1 p {
     text-align: center;
 }
 
 .challenge_box1 img {
-    max-width: 200px;
+    max-width: 400px;
 }
 
 .challenge_box2 p {
@@ -41,9 +91,22 @@ img {
 }
 
 .challenge_box2 img {
-    max-width: 200px;
+    max-width: 400px;
 }
 
-.odin_project_box p {
+.odin_project_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+}
+
+.odin_box_background {
+    background-image: url(./assets/images/recipe-book-with-fruit-sketch.jpeg);
+    width: 450px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
